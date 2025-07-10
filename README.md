@@ -1,30 +1,59 @@
-# 🔋 Battery Health Prediction using AI
+# 🔋 Battery Health Prediction using AI/ML
 
-A Flask-based web app that predicts battery health status (Good, Weak, or Dead) using six ML models: SVM, Decision Tree, Random Forest, Naive Bayes, KNN, and Deep Neural Network. Real-time predictions are also integrated via external API.
+A Flask-based AI application that predicts the health condition of a battery using six machine learning models:  
+**Random Forest, Support Vector Machine, Decision Tree, Naive Bayes, KNN, and Deep Neural Network.**
+
+Users can log in, upload a dataset, run predictions, and also test real-time data from external APIs.  
+This project was built as part of an AI/ML academic exploration with a focus on system accuracy, model comparison, and user interaction.
+
+---
 
 ## 🚀 Features
-- User authentication (register & login)
-- Upload and train models using a CSV dataset
-- Predict battery condition using AI
-- Real-time API integration to monitor live battery data
-- Accuracy & F1-score displayed for each ML model
 
-## 💻 Tech Stack
-- Python, Flask, HTML/CSS
-- Machine Learning (scikit-learn, joblib)
-- Models: RF, SVM, DT, NB, KNN, DNN
-- MySQL (for login system)
+- ✅ User login/register with session management
+- ✅ Upload CSV files to analyze battery performance
+- ✅ Compare accuracy of 6 machine learning models
+- ✅ Real-time battery status prediction using API data
+- ✅ Display accuracy, F1-score & prediction result
+- ✅ UI built with Flask + HTML/CSS (Jinja templates)
 
-## 📁 Project Structure
-- `app.py`: Main backend Flask app
-- `Main_training.py`: Model training pipeline
-- `Main_Testing.py`: Individual model testing
-- `models/`: Contains all serialized model files
-- `templates/`: HTML pages
-- `Dataset.csv`: Battery health training dataset
+---
 
-## 🔧 Setup Instructions
-```bash
-pip install -r requirements.txt
-python app.py
+## 🛠️ Tech Stack
 
+| Layer       | Tools/Tech                 |
+|-------------|----------------------------|
+| Language    | Python, HTML/CSS           |
+| Backend     | Flask, Jinja2              |
+| Machine Learning | scikit-learn, joblib     |
+| Models      | SVM, DT, RF, NB, KNN, DNN  |
+| Storage     | MySQL (for login system)   |
+
+---
+
+## 📷 Screenshots
+
+### 🔹 Login Page
+![Login Page](screenshots/login.png)
+
+### 🔹 Home Dashboard
+![Home Dashboard](screenshots/home.png)
+
+### 🔹 Battery Health Result
+![Prediction Result](screenshots/result.png)
+
+### 🔹 AI Model Comparison
+![AI Chart](screenshots/chart.png)
+
+> 📁 Place your screenshots in a folder named `/screenshots/` in your project repo.
+
+---
+
+## 🧠 Model Output Example
+
+```text
+Model        | Accuracy | F1 Score
+-------------|----------|----------
+RandomForest | 94.3%    | 0.94
+SVM          | 92.1%    | 0.91
+NaiveBayes   | 84.6%    | 0.83
