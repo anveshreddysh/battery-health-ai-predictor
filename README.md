@@ -27,3 +27,7 @@ A Flask-based web app that predicts battery health status (Good, Weak, or Dead) 
 ```bash
 pip install -r requirements.txt
 python app.py
+## Screenshots
+   ├── home.png
+   ├── battery_results.png
+   └── contact_form.png
