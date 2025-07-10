@@ -34,20 +34,23 @@ This project was built as part of an AI/ML academic exploration with a focus on 
 ## 📷 Screenshots
 
 ### 🔹 Login Page
-![Login Page](screenshots/login.png)
+![Login Page](screenshots/[login](https://github.com/user-attachments/assets/2c3e9fdc-5c1f-4284-a9f7-695e971b2d19)
+gin.png)
 
-### 🔹 Home Dashboard
-![Home Dashboard](screenshots/home.png)
+### 🔹 Ai Results
+![Home Dashboard](screenshots/[Ai results](https://github.com/user-attachments/assets/c69863d7-7877-422d-b587-5400f9eccf64)
+e.png)
 
 ### 🔹 Battery Health Result
-![Prediction Result](screenshots/result.png)
+![Prediction Result](https://github.com/user-attachments/assets/0fae9c56-a0b5-4d8f-827e-4d55e883e819)
 
-### 🔹 AI Model Comparison
-![AI Chart](screenshots/chart.png)
-
-> 📁 Place your screenshots in a folder named `/screenshots/` in your project repo.
-
----
+### 🔹 Real time prediction
+[Real time prediction](https://github.com/user-attachments/assets/ec85bc44-55bb-4943-a8c9-e444dad97f54)
+ng)
+### 🔹 Regestration
+![Regestration](https://github.com/user-attachments/assets/ce1b7ad1-6ecd-4e54-b68d-ca04ab0296bc)
+### 🔹 Contact
+![contact](https://github.com/user-attachments/assets/27ccba6a-a98b-4823-8062-6544fa956e80)
 
 ## 🧠 Model Output Example
 
