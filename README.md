@@ -1,4 +1,4 @@
-# 🔋 Battery Health Prediction using AI/ML
+# 🔋 Battery Health Prediction using IOT
 
 A Flask-based AI application that predicts the health condition of a battery using six machine learning models:  
 **Random Forest, Support Vector Machine, Decision Tree, Naive Bayes, KNN, and Deep Neural Network.**
